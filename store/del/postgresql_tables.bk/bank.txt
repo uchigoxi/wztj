@@ -1,0 +1,11 @@
+-- Table: bank
+
+DROP TABLE bank;
+
+CREATE TABLE bank
+(
+  uid integer PRIMARY KEY,
+  integral integer NOT NULL DEFAULT 0,
+  ticket integer NOT NULL DEFAULT 0,
+  money integer NOT NULL DEFAULT 0
+);

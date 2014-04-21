@@ -1,0 +1,18 @@
+-- Table: activity_person
+
+DROP TABLE activity_person;
+
+CREATE TABLE activity_person
+(
+  id serial PRIMARY KEY,
+  bid integer NOT NULL DEFAULT 0,
+  keyword character varying(64),
+  name character varying(64) NOT NULL UNIQUE,
+  description character varying(255),
+  edate timestamp without time zone NOT NULL DEFAULT now(),
+  sdate timestamp without time zone NOT NULL DEFAULT now(),
+  status integer NOT NULL DEFAULT 0,
+  salt character varying(64),
+  config json,
+  type integer NOT NULL DEFAULT 0
+);

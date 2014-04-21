@@ -1,0 +1,43 @@
+-- Table: document
+
+DROP TABLE document;
+
+CREATE TABLE document
+(
+  id serial NOT NULL,
+  hot  integer NOT NULL,--热点排序:6:第一个热点,5:第二个热点,4:第三个热点,3:第四个热点,2:第五个热点,1:其他热点,0:商圈
+  bid  integer,--商家ID
+  qid  integer,--商圈ID
+  title character varying(64) NOT NULL, -- 标题
+  author character varying(64) NOT NULL, -- 作者
+  pic character varying(255) NOT NULL, -- 缩略图片
+  create_date timestamp without time zone NOT NULL DEFAULT now(), -- 发表时间
+  content json, -- 发表的内容
+  sdate  timestamp without time zone ,--有效期开始时间
+  edate  timestamp without time zone ,--有效期截止时间
+  support integer  default 0,-- 赞的人数
+  nosupport integer default 0,--不赞的人数
+  status integer NOT NULL DEFAULT 0, -- 发表状态:0:可用,合法,正常,1:不可用,已删除,已停止,非法,
+  remark1 character varying(255),
+  remark2 character varying(255),
+  CONSTRAINT document_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE document
+  OWNER TO postgres;
+
+
+COMMENT ON TABLE document IS '商圈';
+COMMENT ON COLUMN document.hot IS '热点排序:6:第一个热点,5:第二个热点,4:第三个热点,3:第四个热点,2:第五个热点,1:其他热点,0:商圈';
+COMMENT ON COLUMN document.bid IS '商家ID';
+COMMENT ON COLUMN document.title IS '标题';
+COMMENT ON COLUMN document.author IS '作者';
+COMMENT ON COLUMN document.create_date IS '发表时间';
+COMMENT ON COLUMN document.content IS '发表的内容';
+COMMENT ON COLUMN document.sdate IS '有效期开始时间';
+COMMENT ON COLUMN document.edate IS '有效期截止时间';
+COMMENT ON COLUMN document.support IS '赞的人数';
+COMMENT ON COLUMN document.nosupport IS '不赞的人数';
+COMMENT ON COLUMN document.status IS '发表状态:0:可用,合法,正常,1:不可用,已删除,已停止,非法';

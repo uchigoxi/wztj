@@ -1,0 +1,39 @@
+-- Table: mall
+
+DROP TABLE mall;
+
+CREATE TABLE mall
+(
+  id serial NOT NULL,
+  name character varying(64), -- 物品在商城mall中的名字
+  description character varying(255), -- 描述
+  status integer NOT NULL DEFAULT 0, -- 0:可用,合法,正常,1:不可用,已删除,已停止,非法,4:mall已被用户购买;
+  create_date timestamp without time zone NOT NULL DEFAULT now(), -- 入库商城时间
+  price integer NOT NULL DEFAULT 0,
+  price_unit integer DEFAULT 0,
+  gid   integer  not null,--物品goods-pool中的ID
+  gname character varying(64) NOT NULL, -- 物品在goods—pool中的名字
+  uid   integer ,--买方ID
+  sell_date timestamp without time zone, -- 卖货时间
+  pic character varying(1500), -- 物品图片
+  remark1 character varying(255),
+  remark2 character varying(255),
+  CONSTRAINT mall_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE mall
+  OWNER TO postgres;
+
+COMMENT ON TABLE mall IS '商城表';
+COMMENT ON COLUMN mall.name IS '物品在商城mall中的名字';
+COMMENT ON COLUMN mall.status IS '0:可用,合法,正常,1:不可用,已删除,已停止,非法,4:mall已被用户购买';
+COMMENT ON COLUMN mall.create_date IS '入库商城时间';
+COMMENT ON COLUMN mall.sell_date IS '卖货时间';
+COMMENT ON COLUMN mall.gid IS '物品在goods—pool中的ID';
+COMMENT ON COLUMN mall.gname IS '物品在goods—pool中的名字';
+COMMENT ON COLUMN mall.uid IS '买方ID';
+
+
+

@@ -1,0 +1,24 @@
+-- Table: account
+
+DROP TABLE account;
+
+CREATE TABLE account
+(
+  id serial PRIMARY KEY,
+  name character varying(64) NOT NULL UNIQUE,
+  password character varying(64) NOT NULL,
+  salt character varying(64) NOT NULL ,
+  key character varying(64) NOT NULL UNIQUE,
+  address character varying(255),
+  nickname character varying(64) NOT NULL UNIQUE,
+  status integer NOT NULL DEFAULT 0,
+  regdate timestamp without time zone NOT NULL DEFAULT now(),
+  bid integer,
+  bkey character varying(64),
+  area character varying(64),
+  temp character varying(255),
+  regplatform character varying(64),
+  pic character varying(255),
+  icode character varying(64)
+);
+

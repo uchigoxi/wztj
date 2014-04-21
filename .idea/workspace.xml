@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="886d6254-6914-4104-9db0-1860715ebd97" name="Default" comment="" />
+    <ignored path="wztj.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="wztj" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="3" selection-start="1381" selection-end="1610" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="56" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="4560">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mall.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/app/mall.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="130" column="21" selection-start="2763" selection-end="2763" vertical-scroll-proportion="0.0" vertical-offset="1727" max-vertical-offset="2115">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my/redis.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="112" column="1" selection-start="3018" selection-end="3018" vertical-scroll-proportion="2.1231885" vertical-offset="801" max-vertical-offset="2160">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/service/app/comment.js" />
+        <option value="$PROJECT_DIR$/proxy/comment_news.js" />
+        <option value="$PROJECT_DIR$/store/postgresql_tables/business_area.txt" />
+        <option value="$PROJECT_DIR$/store/postgresql_tables/business.txt" />
+        <option value="$PROJECT_DIR$/store/config/index.js" />
+        <option value="$PROJECT_DIR$/store/postgresql_tables/category.txt" />
+        <option value="$PROJECT_DIR$/store/postgresql_tables/bank.txt" />
+        <option value="$PROJECT_DIR$/store/postgresql_tables/activity_type.txt" />
+        <option value="$PROJECT_DIR$/store/postgresql/document.js" />
+        <option value="$PROJECT_DIR$/proxy/document.js" />
+        <option value="$PROJECT_DIR$/my/file.js" />
+        <option value="$PROJECT_DIR$/store/postgresql/comment_news.js" />
+        <option value="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/multiparty/index.js" />
+        <option value="$PROJECT_DIR$/store/postgresql_tables/use_for.txt" />
+        <option value="$PROJECT_DIR$/store/postgresql/goods.js" />
+        <option value="$PROJECT_DIR$/store/postgresql_tables/document.txt" />
+        <option value="$PROJECT_DIR$/store/postgresql/index.js" />
+        <option value="$PROJECT_DIR$/proxy/index.js" />
+        <option value="$PROJECT_DIR$/service/admin/zxxx.js.html" />
+        <option value="$PROJECT_DIR$/proxy/list.js" />
+        <option value="$PROJECT_DIR$/store/postgresql/list.js" />
+        <option value="$PROJECT_DIR$/store/postgresql/zxxx.js" />
+        <option value="$PROJECT_DIR$/service/admin/index.js" />
+        <option value="$PROJECT_DIR$/service/app/index.js" />
+        <option value="$PROJECT_DIR$/service/app/zxxx.js" />
+        <option value="$PROJECT_DIR$/store/postgresql_tables/zxxx.txt" />
+        <option value="$PROJECT_DIR$/service/admin/zxxx.js" />
+        <option value="$PROJECT_DIR$/proxy/zxxx.js" />
+        <option value="$PROJECT_DIR$/proxy/activity_standard.js" />
+        <option value="$PROJECT_DIR$/store/postgresql/activity_standard.js" />
+        <option value="$PROJECT_DIR$/my/postgresql.js" />
+        <option value="$PROJECT_DIR$/service/app/document.js" />
+        <option value="$PROJECT_DIR$/service/app/user.js" />
+        <option value="$PROJECT_DIR$/store/postgresql/account.js" />
+        <option value="$PROJECT_DIR$/proxy/user.js" />
+        <option value="$PROJECT_DIR$/my/tools.js" />
+        <option value="$PROJECT_DIR$/service/test.js" />
+        <option value="$PROJECT_DIR$/service/config.js" />
+        <option value="$PROJECT_DIR$/my/redis.js" />
+        <option value="$PROJECT_DIR$/service/admin/document.js" />
+        <option value="$PROJECT_DIR$/service/admin/goods.js" />
+        <option value="$PROJECT_DIR$/service/admin/list.js" />
+        <option value="$PROJECT_DIR$/service/admin/mall.js" />
+        <option value="$PROJECT_DIR$/service/admin/activity.js" />
+        <option value="$PROJECT_DIR$/service/app/activity.js" />
+        <option value="$PROJECT_DIR$/my/check.js" />
+        <option value="$PROJECT_DIR$/service/app/activity_person.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/ssl/ssl.txt" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/service/app/mall.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="719" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wztj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="settings.nodejs" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service/mobile" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="886d6254-6914-4104-9db0-1860715ebd97" name="Default" comment="" />
+      <created>1392256015752</created>
+      <updated>1392256015752</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1280" height="719" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="44" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="4545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssl/ssl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="192" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/goods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="22" selection-start="4041" selection-end="4041" vertical-scroll-proportion="0.0" vertical-offset="2114" max-vertical-offset="2550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/postgresql_tables/document.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="39" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/postgresql_tables/mall.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/postgresql/document.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="20" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.0" vertical-offset="1038" max-vertical-offset="2745" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/warehouse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="2120" selection-end="2218" vertical-scroll-proportion="0.6601467" vertical-offset="900" max-vertical-offset="1890" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/postgresql/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="27" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.58679706" vertical-offset="540" max-vertical-offset="1005" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="52" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.6601467" vertical-offset="240" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/postgresql/bank.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1770" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="22" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/postgresql/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="34" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.7432763" vertical-offset="431" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/admin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="43" selection-start="481" selection-end="481" vertical-scroll-proportion="0.4400978" vertical-offset="0" max-vertical-offset="409" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/app/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="37" selection-start="383" selection-end="383" vertical-scroll-proportion="0.36674815" vertical-offset="0" max-vertical-offset="409" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/activity_business.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="141" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/postgresql_tables/warehouse.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="666" selection-end="689" vertical-scroll-proportion="0.6601467" vertical-offset="0" max-vertical-offset="705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/postgresql_tables/zxxx.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="42" selection-start="172" selection-end="172" vertical-scroll-proportion="0.24242425" vertical-offset="24" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/app/zxxx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="252" selection-end="252" vertical-scroll-proportion="0.07334963" vertical-offset="135" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/zxxx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/postgresql/mall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="39" selection-start="4037" selection-end="4043" vertical-scroll-proportion="0.56060606" vertical-offset="1428" max-vertical-offset="2445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/postgresql/zxxx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="728" selection-end="728" vertical-scroll-proportion="0.4090909" vertical-offset="183" max-vertical-offset="1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/admin/zxxx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="21" selection-start="528" selection-end="528" vertical-scroll-proportion="0.057441253" vertical-offset="368" max-vertical-offset="1425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/activity_standard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="31" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" vertical-offset="959" max-vertical-offset="1860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/postgresql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="14" selection-start="413" selection-end="413" vertical-scroll-proportion="0.28938907" vertical-offset="0" max-vertical-offset="622" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/postgresql/activity_standard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="35" selection-start="2387" selection-end="2387" vertical-scroll-proportion="0.0" vertical-offset="783" max-vertical-offset="1710" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/app/document.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="13" selection-start="1388" selection-end="1395" vertical-scroll-proportion="0.7624021" vertical-offset="788" max-vertical-offset="2385" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/postgresql/account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="72" selection-start="3513" selection-end="3513" vertical-scroll-proportion="0.37121212" vertical-offset="1338" max-vertical-offset="2445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="210" column="58" selection-start="4974" selection-end="4974" vertical-scroll-proportion="0.6259169" vertical-offset="2894" max-vertical-offset="4425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/pg/test/integration/client/appname-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="2" selection-start="715" selection-end="715" vertical-scroll-proportion="0.33251834" vertical-offset="299" max-vertical-offset="1500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="110" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="7755" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/app/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="26" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="6300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="409" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/xss/lib/parser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="17" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.33251834" vertical-offset="689" max-vertical-offset="2730" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="35" selection-start="954" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="1365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/redis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="409" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/admin/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/admin/activity_person.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="78" selection-end="113" vertical-scroll-proportion="0.14669926" vertical-offset="0" max-vertical-offset="1320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/admin/document.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="2" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/admin/goods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/admin/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1950" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/admin/mall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="38" selection-start="76" selection-end="76" vertical-scroll-proportion="0.14669926" vertical-offset="0" max-vertical-offset="2490" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/admin/activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="209" column="4" selection-start="4307" selection-end="4307" vertical-scroll-proportion="0.41320294" vertical-offset="2966" max-vertical-offset="3510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/app/activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="703" selection-end="703" vertical-scroll-proportion="-10.259169" vertical-offset="4796" max-vertical-offset="5400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/check.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="4" selection-start="4772" selection-end="4772" vertical-scroll-proportion="0.0" vertical-offset="2433" max-vertical-offset="3570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/app/activity_person.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="246" column="5" selection-start="4980" selection-end="4980" vertical-scroll-proportion="0.0" vertical-offset="3397" max-vertical-offset="4035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="3" selection-start="1381" selection-end="1610" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssl/ssl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="70" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0375" vertical-offset="0" max-vertical-offset="400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="56" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="4560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/app/mall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="21" selection-start="2763" selection-end="2763" vertical-scroll-proportion="0.0" vertical-offset="1727" max-vertical-offset="2115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/redis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="1" selection-start="3018" selection-end="3018" vertical-scroll-proportion="2.1231885" vertical-offset="801" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

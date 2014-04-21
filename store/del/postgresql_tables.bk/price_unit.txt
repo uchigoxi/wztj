@@ -1,0 +1,14 @@
+-- Table: price_unit
+
+ DROP TABLE price_unit;
+
+ CREATE TABLE price_unit
+ (
+   id integer NOT NULL,
+   description character varying(255)
+ );
+
+ insert into price_unit (id, description) values(1, '金币/个');
+
+
+

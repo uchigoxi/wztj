@@ -1,0 +1,41 @@
+-- Table: category
+
+DROP TABLE category;
+CREATE TABLE category
+(
+  id serial NOT NULL,
+  name character varying(64), -- 奖品所属哪类描述:如：电影票,购物券
+  description character varying(255), -- 奖品所属哪类描述:如：电影票,购物券
+  status integer NOT NULL DEFAULT 0,
+  remark1 character varying(255), 
+  remark2 character varying(255),
+  CONSTRAINT category_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE category
+  OWNER TO postgres;
+
+
+INSERT INTO category(
+            id, name, description, status, remark1, remark2)
+    VALUES (1, '食品', null, 0, null, null);
+
+INSERT INTO category(
+            id, name, description, status, remark1, remark2)
+    VALUES (2, '服装', null, 0, null, null);
+
+INSERT INTO category(
+            id, name, description, status, remark1, remark2)
+    VALUES (3, '数码', null, 0, null, null);
+
+INSERT INTO category(
+            id, name, description, status, remark1, remark2)
+    VALUES (4, '图书', null, 0, null, null);
+
+INSERT INTO category(
+            id, name, description, status, remark1, remark2)
+    VALUES (5, '酒店', null, 0, null, null);
+
+

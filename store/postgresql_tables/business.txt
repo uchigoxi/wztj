@@ -1,0 +1,35 @@
+-- Table: business
+
+DROP TABLE business;
+CREATE TABLE business
+(
+  id       serial NOT NULL,
+  name     character varying(64) NOT NULL,--商家名称
+  address  character varying(255) NOT NULL,--商家地址
+  telephone character varying(11) NOT NULL,--商家电话
+  person   character varying(64) NOT NULL,--商家联系人
+  description character varying(255), -- 商家信息描述:
+  status integer NOT NULL DEFAULT 0,
+  remark1 character varying(255),
+  remark2 character varying(255),
+  CONSTRAINT business_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE business
+  OWNER TO postgres;
+
+
+COMMENT ON TABLE business IS '商家列表';
+COMMENT ON COLUMN business.name IS '商家名称';
+COMMENT ON COLUMN business.address IS '商家地址';
+COMMENT ON COLUMN business.telephone IS '商家电话';
+COMMENT ON COLUMN business.person IS '商家联系人';
+COMMENT ON COLUMN business.description IS '商家信息描述:';
+
+insert into business values(1,'滨江商厦麦当劳','滨江道','12345678901','张三','阿斯达克感觉',0);
+insert into business values(2,'银河购物肯德基','平江道','12345678902','李四','阿斯峰哥感觉',0);
+insert into business values(3,'大悦城外婆家','为津南路','12345678903','王五','阿斯达克哈哈',0);
+insert into business values(4,'彩悦城牛杂面','乐园道','12345678904','赵六','阿斯克感觉',0);
+insert into business values(5,'水游城韩国料理','芥园道','12345678905','王七','斯达克感觉',0);

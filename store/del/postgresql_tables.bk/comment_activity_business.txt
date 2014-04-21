@@ -1,0 +1,16 @@
+-- Table: comment_activity_business
+
+DROP TABLE comment_activity_business;
+
+CREATE TABLE comment_activity_business
+(
+  id serial PRIMARY KEY,
+  fid integer not null default 0,
+  comment text NOT NULL,
+  create_date timestamp without time zone NOT NULL DEFAULT now(),
+  uid integer NOT NULL,
+  uname character varying(64) NOT NULL,
+  audit_user character varying(64),
+  audit_date timestamp without time zone,
+  status integer NOT NULL DEFAULT 0
+);

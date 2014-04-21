@@ -1,0 +1,40 @@
+-- Table: activity_business
+
+-- DROP TABLE activity_business;
+
+CREATE TABLE activity_business
+(
+  id serial NOT NULL,
+  bid integer NOT NULL DEFAULT 0, -- 商家ID
+  keyword character varying(64), -- 关键字
+  name character varying(64) NOT NULL, -- 活动名称
+  description character varying(255), -- 活动描述
+  edate timestamp without time zone NOT NULL DEFAULT now(), -- 活动截止时间
+  sdate timestamp without time zone NOT NULL DEFAULT now(), -- 活动开始时间
+  status integer NOT NULL DEFAULT 0, -- 活动状态:0:可用,合法,正常,1:不可用,已删除,已停止,非法
+  salt character varying(64), -- salt加密
+  config json, -- 活动详情
+  type integer NOT NULL DEFAULT 0, -- 活动所属类型：
+  remark1 character varying(255),
+  remark2 character varying(255),
+  CONSTRAINT activity_business_pkey PRIMARY KEY (id),
+  CONSTRAINT activity_business_name_key UNIQUE (name)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE activity_business
+  OWNER TO postgres;
+
+COMMENT ON TABLE activity_business IS '商家发起的活动';
+COMMENT ON COLUMN activity_business.bid IS '商家ID';
+COMMENT ON COLUMN activity_business.keyword IS '关键字';
+COMMENT ON COLUMN activity_business.name IS '活动名称';
+COMMENT ON COLUMN activity_business.description IS '活动描述';
+COMMENT ON COLUMN activity_business.edate IS '活动截止时间';
+COMMENT ON COLUMN activity_business.sdate IS '活动开始时间';
+COMMENT ON COLUMN activity_business.status IS '活动状态：0:可用,合法,正常,1:不可用,已删除,已停止,非法';
+COMMENT ON COLUMN activity_business.salt IS 'salt加密';
+COMMENT ON COLUMN activity_business.config IS '活动详情';
+COMMENT ON COLUMN activity_business.type IS '活动所属类型：';
+

@@ -1,0 +1,41 @@
+-- Table: warehouse
+
+DROP TABLE warehouse;
+
+CREATE TABLE warehouse
+(
+  id serial NOT NULL,
+  status integer NOT NULL DEFAULT 0, -- 0:可用,合法,正常,1:不可用,已删除,已停止,非法
+  create_date timestamp without time zone NOT NULL DEFAULT now(), -- 物品生成时间
+  exchange_date timestamp(6) without time zone, -- 兑换奖品时间
+  uid integer NOT NULL, -- 用户ID
+  gid integer NOT NULL, -- 物品ID
+  gname character varying(64) NOT NULL, -- 物品名称
+  wfrom integer NOT NULL,-- 物品渠道：1：mall 2：activity_standard 3：activity_business 4：activity_person 5：others
+  pbid   integer , --prize_business中ID
+  ppid   integer , --prize_person中ID
+  psid   integer , --prize_standard中ID
+  mid   integer  , --mall中ID
+  remark1 character varying(255),
+  remark2 character varying(255),
+  CONSTRAINT warehouse_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE warehouse
+  OWNER TO postgres;
+
+
+COMMENT ON TABLE warehouse IS '个人仓库';
+COMMENT ON COLUMN warehouse.status IS '0:可用,合法,正常,1:不可用,已删除,已停止,非法';
+COMMENT ON COLUMN warehouse.createdate IS '物品生成时间';
+COMMENT ON COLUMN warehouse.exchange_date IS '兑换奖品时间';
+COMMENT ON COLUMN warehouse.uid IS '用户ID';
+COMMENT ON COLUMN warehouse.gid IS '物品ID';
+COMMENT ON COLUMN warehouse.gname IS '物品名称';
+COMMENT ON COLUMN warehouse.wfrom IS '物品渠道：1：mall 2：activity_standard 3：activity_business 4：activity_person 5：others';
+COMMENT ON COLUMN warehouse.pbid IS 'prize_business中ID';
+COMMENT ON COLUMN warehouse.ppid IS 'prize_person中ID';
+COMMENT ON COLUMN warehouse.psid IS 'prize_standard中ID';
+COMMENT ON COLUMN warehouse.mid IS 'mall中ID';

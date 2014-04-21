@@ -1,0 +1,55 @@
+-- Table: prize_business
+
+-- DROP TABLE prize_business;
+
+CREATE TABLE prize_business
+(
+  id serial NOT NULL,
+  aid integer NOT NULL, -- 商家活动ID
+  status integer NOT NULL DEFAULT 0, -- 0:可用,合法,正常,1:不可用,已删除,已停止,非法,5:prize用户已中奖',6:prize用户已领奖
+  create_date timestamp without time zone NOT NULL DEFAULT now(), -- 商家活动发起时间
+  gid integer NOT NULL, -- 奖品ID
+  gname character varying(64) NOT NULL, -- 奖品名字
+  description character varying(255), -- 奖品描述
+  sn character varying(64) NOT NULL, -- 奖品唯一 标识
+  bid integer NOT NULL DEFAULT 0, -- 商圈ID
+  pic character varying(1500), -- 奖品图片
+  category integer NOT NULL DEFAULT 0, -- 奖品所属类别
+  prize_name character varying(64) NOT NULL, -- 获奖名字
+  prize_level integer NOT NULL DEFAULT 0, -- 几等奖
+  uid integer, -- 获奖者ID
+  prize_date timestamp(6) without time zone, -- 不知道
+  exchange_date timestamp(6) without time zone, -- 玩家兑换奖品的时间
+  edate timestamp without time zone NOT NULL DEFAULT now(), -- 兑换的截止时间
+  sdate timestamp without time zone, -- 兑换奖品的开始时间
+  remark1 character varying(255),
+  remark2 character varying(255),
+  CONSTRAINT prize_business_pkey PRIMARY KEY (id),
+  CONSTRAINT prize_business_sn_key UNIQUE (sn)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE prize_business
+  OWNER TO postgres;
+
+
+COMMENT ON TABLE prize_business IS '商家中奖奖品池';
+COMMENT ON COLUMN prize_business.aid IS '商家活动ID';
+COMMENT ON COLUMN prize_business.status IS '0:可用,合法,正常,1:不可用,已删除,已停止,非法,5:prize用户已中奖',6:prize用户已领奖';
+COMMENT ON COLUMN prize_business.create_date IS '商家活动发起时间';
+COMMENT ON COLUMN prize_business.gid IS '奖品ID';
+COMMENT ON COLUMN prize_business.gname IS '奖品名字';
+COMMENT ON COLUMN prize_business.description IS '奖品描述';
+COMMENT ON COLUMN prize_business.sn IS '奖品唯一 标识';
+COMMENT ON COLUMN prize_business.bid IS '商圈ID';
+COMMENT ON COLUMN prize_business.pic IS '奖品图片';
+COMMENT ON COLUMN prize_business.category IS '奖品所属类别';
+COMMENT ON COLUMN prize_business.prize_name IS '获奖名字';
+COMMENT ON COLUMN prize_business.prize_level IS '几等奖';
+COMMENT ON COLUMN prize_business.uid IS '获奖者ID';
+COMMENT ON COLUMN prize_business.prize_date IS '不知道';
+COMMENT ON COLUMN prize_business.exchange_date IS '玩家兑换奖品的时间';
+COMMENT ON COLUMN prize_business.edate IS '兑换的截止时间';
+COMMENT ON COLUMN prize_business.sdate IS '兑换奖品的开始时间';
+

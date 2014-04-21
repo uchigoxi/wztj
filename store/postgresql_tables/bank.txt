@@ -1,0 +1,26 @@
+-- Table: bank
+
+DROP TABLE bank;
+CREATE TABLE bank
+(
+  uid integer NOT NULL, -- 用户ID
+  integral integer NOT NULL DEFAULT 0, -- 积分
+  ticket integer NOT NULL DEFAULT 0, -- 奖券
+  money integer NOT NULL DEFAULT 0, -- 金钱
+  remark1 character varying(255),
+  remark2 character varying(255),
+  CONSTRAINT bank_pkey PRIMARY KEY (uid)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE bank
+  OWNER TO postgres;
+
+
+COMMENT ON TABLE bank  IS '用户银行';
+COMMENT ON COLUMN bank.uid IS '用户ID';
+COMMENT ON COLUMN bank.integral IS '积分';
+COMMENT ON COLUMN bank.ticket IS '奖券';
+COMMENT ON COLUMN bank.money IS '金钱';
+

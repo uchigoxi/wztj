@@ -1,0 +1,14 @@
+-- Table: business
+
+ DROP TABLE business;
+
+ CREATE TABLE business
+ (
+   id integer NOT NULL,
+   description character varying(255)
+ );
+
+ insert into business (id, description) values(1, '天津日报');
+
+
+

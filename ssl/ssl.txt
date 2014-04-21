@@ -1,0 +1,5 @@
+
+openssl genrsa -des3 -out wztjkey.pem 2048  //这个命令会生成一个2048位的密钥，同时有一个des3方法加密的密码，如果你不想要每次都输入密码，可以改成：
+openssl genrsa -out wztjkey.pem 2048
+openssl req -new -key wztjkey.pem -out wztjquest.csr
+openssl x509 -req -in wztjquest.csr -signkey wztjkey.pem -days 365 -out wztjcert.pem

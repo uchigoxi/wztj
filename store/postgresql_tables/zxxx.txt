@@ -1,0 +1,28 @@
+-- Table: zxxx
+
+DROP TABLE zxxx;
+
+CREATE TABLE zxxx
+(
+  id serial NOT NULL,
+  status integer NOT NULL DEFAULT 0, -- 审核状态:0:正常1:删除
+  title  character varying(255) NOT NULL,--消息题目
+  type integer NOT NULL,--消息对应的对象类型：1：mall 2：activity_standard 3：activity_business 4：activity_person 5：free 6: others
+  fid   character varying(255)  NOT NULL,--对象的ID
+  create_date timestamp without time zone NOT NULL DEFAULT now(), -- 消息时间
+  remark1 character varying(255),
+  remark2 character varying(255),
+  CONSTRAINT zxxx_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE zxxx
+  OWNER TO postgres;
+
+COMMENT ON TABLE zxxx IS '消息';
+COMMENT ON COLUMN zxxx.status IS '审核状态:0:正常1:删除';
+COMMENT ON COLUMN zxxx.title IS '消息题目';
+COMMENT ON COLUMN zxxx.type IS '消息对应的对象类型：1：mall 2：activity_standard 3：activity_business 4：activity_person 5：free 6: others';
+COMMENT ON COLUMN zxxx.fid IS '对象的ID';
+COMMENT ON COLUMN zxxx.create_date IS '消息时间';

@@ -1,0 +1,50 @@
+-- Table: account
+
+DROP TABLE account;
+
+CREATE TABLE account
+(
+  id serial NOT NULL,
+  name character varying(64) NOT NULL, -- 用户名
+  sex  integer  NOT null, --用户性别：0:女,1:男
+  password character varying(64) NOT NULL, -- 用户密码
+  salt character varying(64) NOT NULL, -- salt加密
+  key character varying(64), -- 唯一码
+  address character varying(255), -- 家庭住址
+  nickname character varying(64), -- 用户昵称
+  status integer NOT NULL DEFAULT 0, -- 用户状态:0:可用,合法,正常,1:不可用,已删除,已停止,非法
+  regdate timestamp without time zone NOT NULL DEFAULT now(), -- 注册时间
+  age integer, -- 年龄
+  qq character varying(64),-- qq
+  tel character varying(64), -- 手机号
+  regplatform character varying(64), -- 注册平台
+  pic character varying(255), -- 用户头像
+  icode character varying(64), -- 注册邀请码
+  remark1 character varying(255),
+  remark2 character varying(255),
+  CONSTRAINT account_pkey PRIMARY KEY (id),
+  CONSTRAINT account_name_key UNIQUE (name)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE account
+  OWNER TO postgres;
+
+
+COMMENT ON TABLE account IS '用户表';
+COMMENT ON COLUMN account.name IS '用户名';
+COMMENT ON COLUMN account.sex IS '用户性别:0:女,1:男';
+COMMENT ON COLUMN account.password IS '用户密码';
+COMMENT ON COLUMN account.salt IS 'salt加密';
+COMMENT ON COLUMN account.key IS '唯一码';
+COMMENT ON COLUMN account.address IS '家庭住址';
+COMMENT ON COLUMN account.nickname IS '用户昵称';
+COMMENT ON COLUMN account.status IS '用户状态:0:可用,合法,正常,1:不可用,已删除,已停止,非法';
+COMMENT ON COLUMN account.regdate IS '注册时间';
+COMMENT ON COLUMN account.age IS '年龄';
+COMMENT ON COLUMN account.qq IS 'qq';
+COMMENT ON COLUMN account.tel IS '手机号';
+COMMENT ON COLUMN account.regplatform IS '注册平台';
+COMMENT ON COLUMN account.pic IS '用户头像';
+COMMENT ON COLUMN account.icode IS '注册邀请码';

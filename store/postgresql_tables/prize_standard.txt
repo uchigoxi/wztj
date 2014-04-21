@@ -1,0 +1,39 @@
+-- Table: prize_standard
+
+DROP TABLE prize_standard;
+
+CREATE TABLE prize_standard
+(
+  id serial NOT NULL,
+  status integer NOT NULL DEFAULT 0, -- 0:可用,合法,正常,1:不可用,已删除,已停止,非法,5:prize用户已中奖,6:prize用户已领奖
+  create_date timestamp without time zone NOT NULL DEFAULT now(), -- 设置奖品时间
+  prize_name character varying(64) NOT NULL, -- 奖品名
+  prize_level integer NOT NULL DEFAULT 0, -- 几等奖
+  prize_date timestamp(6) without time zone, -- 中奖时间
+  exchange_date timestamp(6) without time zone, -- 兑换奖品时间
+  aid integer NOT NULL, -- 官方活动ID
+  gid integer NOT NULL, -- 物品ID
+  gname character varying(64) NOT NULL, -- 物品名字
+  uid integer, -- 中奖者ID
+  remark1 character varying(255),
+  remark2 character varying(255), 
+  CONSTRAINT prize_standard_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE prize_standard
+  OWNER TO postgres;
+
+COMMENT ON TABLE prize_standard IS '官方发起活动中奖奖品表';
+COMMENT ON COLUMN prize_standard.status IS '0:可用,合法,正常,1:不可用,已删除,已停止,非法,5:prize用户已中奖,6:prize用户已领奖';
+COMMENT ON COLUMN prize_standard.create_date IS '设置奖品时间';
+COMMENT ON COLUMN prize_standard.prize_name IS '奖品名';
+COMMENT ON COLUMN prize_standard.prize_level IS '几等奖';
+COMMENT ON COLUMN prize_standard.prize_date IS '中奖时间';
+COMMENT ON COLUMN prize_standard.exchange_date IS '兑换奖品时间';
+COMMENT ON COLUMN prize_standard.aid IS '官方活动ID';
+COMMENT ON COLUMN prize_standard.gid IS '物品ID';
+COMMENT ON COLUMN prize_standard.gname IS '物品名字';
+COMMENT ON COLUMN prize_standard.uid IS '中奖者ID';
+

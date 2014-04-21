@@ -1,0 +1,15 @@
+-- Table: document
+
+DROP TABLE document;
+
+CREATE TABLE document
+(
+  id serial PRIMARY KEY,
+  type integer NOT NULL DEFAULT 0,
+  title character varying(64) NOT NULL,
+  author character varying(64) NOT NULL,
+  create_date timestamp without time zone NOT NULL DEFAULT now(),
+  content json,
+  status integer NOT NULL DEFAULT 0,
+  remark character varying(255)
+)

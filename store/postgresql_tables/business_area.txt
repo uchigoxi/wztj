@@ -1,0 +1,29 @@
+-- Table: TABLE business_area;
+
+DROP TABLE business_area;
+
+CREATE TABLE business_area
+(
+  id serial NOT NULL,
+  name    character varying(64)  NOT NULL,--商圈名字
+  address character varying(255) NOT NULL,--商圈地址
+  status integer NOT NULL DEFAULT 0,
+  remark1 character varying(255),
+  remark2 character varying(255),
+  CONSTRAINT business_area_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE business_area
+  OWNER TO postgres;
+
+
+COMMENT ON TABLE business_area IS '商圈';
+COMMENT ON COLUMN business_area.name IS '商圈名字';
+COMMENT ON COLUMN business_area.address IS '商圈地址';
+
+insert into business_area(id,name,address,status) values(1,'滨江道','和平区',0);
+insert into business_area(id,name,address,status) values(2,'河东万达','津滨大道',0);
+insert into business_area(id,name,address,status) values(3,'彩悦城','乐园道',0);
+insert into business_area(id,name,address,status) values(4,'大悦城','南门外大街',0);

@@ -1,0 +1,18 @@
+-- Table: account
+
+-- DROP TABLE account;
+CREATE TABLE price_unit
+(
+  id integer NOT NULL, -- 物品在goods—pools中的ID
+  description character varying(255) -- 物品的兑换（金币）
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE price_unit
+  OWNER TO postgres;
+
+
+COMMENT ON TABLE price_unit IS '物品在mall中的单价';
+COMMENT ON COLUMN price_unit.id IS '物品在goods—pools中的ID';
+COMMENT ON COLUMN price_unit.description IS '物品的兑换（金币）';

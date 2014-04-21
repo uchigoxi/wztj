@@ -1,0 +1,46 @@
+-- Table: goods_pool
+
+DROP TABLE goods_pool;
+
+CREATE TABLE goods_pool
+(
+  id serial NOT NULL,
+  name character varying(64) NOT NULL, -- 物品名称
+  description character varying(255), -- 物品描述
+  sn character varying(64) NOT NULL, -- 唯一sn标识
+  bid integer NOT NULL DEFAULT 0, -- 商家ID
+  pic character varying(1500), -- 物品图片
+  category integer NOT NULL DEFAULT 0, -- 物品所属类别
+  create_date timestamp without time zone NOT NULL DEFAULT now(), -- 入库时间
+  use_date timestamp without time zone,-- 使用时间
+  use_for integer DEFAULT 0, -- 1:mall,2:activity_standard,3:activity_business,4:activity_person
+  status integer NOT NULL DEFAULT 0, -- 0:goods可用,1:goods不可用,3:goods已经分配使用
+  owner character varying(64), -- 业务员
+  sdate timestamp without time zone NOT NULL DEFAULT now(), -- 物品有效（起）时间
+  edate timestamp without time zone NOT NULL DEFAULT now(), -- 物品有效(止)时间
+  remark1 character varying(255),
+  remark2 character varying(255),
+  CONSTRAINT goods_pool_pkey PRIMARY KEY (id),
+  CONSTRAINT goods_pool_sn_key UNIQUE (sn)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE goods_pool
+  OWNER TO postgres;
+
+COMMENT ON TABLE goods_pool IS '物品总仓库';
+COMMENT ON COLUMN goods_pool.name IS '物品名称';
+COMMENT ON COLUMN goods_pool.description IS '物品描述';
+COMMENT ON COLUMN goods_pool.sn IS '唯一sn标识';
+COMMENT ON COLUMN goods_pool.bid IS '商家ID';
+COMMENT ON COLUMN goods_pool.pic IS '物品图片';
+COMMENT ON COLUMN goods_pool.category IS '物品所属类别';
+COMMENT ON COLUMN goods_pool.create_date IS '入库时间';
+COMMENT ON COLUMN goods_pool.use_date IS '使用时间';
+COMMENT ON COLUMN goods_pool.use_for IS '1:mall,2:activity_standard,3:activity_business,4:activity_person';
+COMMENT ON COLUMN goods_pool.status IS '0:goods可用,1:goods不可用,3:goods已经分配使用';
+COMMENT ON COLUMN goods_pool.owner IS '业务员';
+COMMENT ON COLUMN goods_pool.sdate IS '物品有效（起）时间';
+COMMENT ON COLUMN goods_pool.edate IS '物品有效(止)时间';
+

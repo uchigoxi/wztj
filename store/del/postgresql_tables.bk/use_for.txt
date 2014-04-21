@@ -1,0 +1,14 @@
+-- Table: use_for
+
+ DROP TABLE use_for;
+
+ CREATE TABLE use_for
+ (
+   id integer NOT NULL,
+   description character varying(255)
+ );
+
+ insert into use_for (id, description) values(1,'mall');
+ insert into use_for (id, description) values(2,'activity_standard');
+ insert into use_for (id, description) values(3,'activity_business');
+ insert into use_for (id, description) values(4,'activity_person');

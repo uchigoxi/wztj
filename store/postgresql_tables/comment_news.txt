@@ -1,0 +1,35 @@
+-- Table: comment_news
+
+DROP TABLE comment_news;
+
+CREATE TABLE comment_news
+(
+  id serial NOT NULL,
+  fid integer NOT NULL DEFAULT 0, -- 不知道
+  comment text NOT NULL, -- 评论内容
+  create_date timestamp without time zone NOT NULL DEFAULT now(), -- 评论时间
+  uid integer NOT NULL, -- 用户ID
+  uname character varying(64) NOT NULL, -- 用户名称
+  audit_user character varying(64), -- 审核人姓名
+  audit_date timestamp without time zone, -- 审核时间
+  status integer NOT NULL DEFAULT 0, -- 审核状态:0:未审核1:已审核
+  remark1 character varying(255),
+  remark2 character varying(255),
+  CONSTRAINT comment_news_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE comment_news
+  OWNER TO postgres;
+
+
+COMMENT ON COLUMN comment_news.fid IS '不知道';
+COMMENT ON COLUMN comment_news.comment IS '评论内容';
+COMMENT ON COLUMN comment_news.create_date IS '评论时间';
+COMMENT ON COLUMN comment_news.uid IS '用户ID';
+COMMENT ON COLUMN comment_news.uname IS '用户名称';
+COMMENT ON COLUMN comment_news.audit_user IS '审核人姓名';
+COMMENT ON COLUMN comment_news.audit_date IS '审核时间';
+COMMENT ON COLUMN comment_news.status IS '审核状态：0：未审核1：已审核';
+

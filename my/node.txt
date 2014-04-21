@@ -1,0 +1,14 @@
+ * 最新消息 document 能链接到活动 和 白送图文
+ * 抽奖9个
+ * 中奖 更新顺序 先db 奖品表用户仓库表 返回后 同时写redis 中奖信息和no win times
+
+ 所有select by id ，sql中都不加status判断
+ 所有select list 都order by id  desc
+
+
+
+
+ 没做的：
+ goods 按照 各种条件list
+ 发起活动 和 评论 需要登记ip
+ mall 开始 结束时间 没有啊～ name也没有

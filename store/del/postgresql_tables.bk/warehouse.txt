@@ -1,0 +1,22 @@
+-- Table: warehouse
+
+ DROP TABLE warehouse;
+
+ CREATE TABLE warehouse
+ (
+   id serial PRIMARY KEY,
+   uid integer NOT NULL,
+   gid integer NOT NULL,
+   mid integer NOT NULL,
+   gname character varying(64) NOT NULL,
+   description character varying(255),
+   sn character varying(64) NOT NULL UNIQUE,
+   bid integer NOT NULL DEFAULT 0,
+   pic character varying(255),
+   category integer NOT NULL DEFAULT 0,
+   createdate timestamp without time zone NOT NULL DEFAULT now(),
+   price integer NOT NULL DEFAULT 0,
+   price_unit  integer NOT NULL DEFAULT 0,
+   status integer NOT NULL DEFAULT 0,
+   remark character varying(255)
+ )

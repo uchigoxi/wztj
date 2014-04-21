@@ -1,0 +1,14 @@
+-- Table: category
+
+ DROP TABLE category;
+
+ CREATE TABLE category
+ (
+   id integer NOT NULL,
+   description character varying(255)
+ );
+
+ insert into category (id, description) values(1, '电器');
+
+
+

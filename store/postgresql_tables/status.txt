@@ -1,0 +1,29 @@
+-- Table: status
+
+-- DROP TABLE status;
+CREATE TABLE status
+(
+  id integer NOT NULL,
+  description character varying(255),
+  remark1 character varying(255),
+  remark2 character varying(255)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE status
+  OWNER TO postgres;
+
+
+COMMENT ON TABLE status  IS '状态明细';
+
+
+
+  
+ insert into status (id, description) values(0, '可用,合法,正常');
+ insert into status (id, description) values(1, '不可用,已删除,已停止,非法');
+ insert into status (id, description) values(2, 'comment未审核');
+ insert into status (id, description) values(3, 'goods已经分配使用');
+ insert into status (id, description) values(4, 'mall已被用户购买');
+ insert into status (id, description) values(5, 'prize用户已中奖');
+ insert into status (id, description) values(6, 'prize用户已领奖');
